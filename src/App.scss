@@ -1,0 +1,12 @@
+.container{
+  margin-inline: 130px
+}
+.main{
+  display: flex;
+  gap: 30px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
