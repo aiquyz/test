@@ -1,14 +1,8 @@
 import { Range as ReactRange, getTrackBackground } from "react-range";
 
-<<<<<<< HEAD
 const STEP = 100;
 const MIN = 0;
 const MAX = 100000;
-=======
-const STEP = 0.1;
-const MIN = 0;
-const MAX = 100;
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
 
 const Range = ({ values, onChange }) => {
   return (
@@ -26,11 +20,7 @@ const Range = ({ values, onChange }) => {
             ...props.style,
             height: "36px",
             display: "flex",
-<<<<<<< HEAD
             maxWidth: "212px",
-=======
-            width: "100%",
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
           }}
         >
           <div

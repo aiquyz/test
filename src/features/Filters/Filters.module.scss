@@ -1,5 +1,4 @@
 .side-bar {
-<<<<<<< HEAD
   width: 230px;
   color: #1c1c1c;
 }
@@ -10,31 +9,17 @@
   padding-block: 14px;
   display: flex;
   flex-direction: column;
-=======
-  max-width: 230px;
-  display: flex;
-  flex-direction: column;
-  color: #1c1c1c;
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
   & h6 {
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 23px;
   }
-<<<<<<< HEAD
-=======
-  & hr {
-    border-top: 2px solid #dee2e7;
-    margin-bottom: 14px;
-  }
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
 }
 .brands {
   display: flex;
   flex-direction: column;
   gap: 16px;
-<<<<<<< HEAD
   & div {
     display: flex;
     align-items: center;
@@ -79,41 +64,6 @@
   flex-direction: column;
   justify-content: start;
   gap: 5px;
-=======
-}
-.product__wrapper {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  & input {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #bdbdbd;
-    border-radius: 5px;
-  }
-  & span {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-  }
-}
-
-.price {
-  display: flex;
-  flex-direction: column;
-  & h6 {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 23px;
-  }
-}
-.prise__inputs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
   margin-bottom: 8px;
   & span {
     font-weight: 400;
@@ -122,19 +72,13 @@
   }
   & input {
     max-width: 110px;
-<<<<<<< HEAD
     height: 40px;
     padding: 10px;
-=======
-    padding: 10px;
-    height: 40px;
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
     border: 1px solid #dee2e7;
     border-radius: 6px;
   }
 }
 .apply__btn {
-<<<<<<< HEAD
   max-width: fit-content;
   align-self: center;
   padding: 0 16px;
@@ -157,32 +101,11 @@
   background-color: transparent;
   align-self: flex-start;
   font-style: normal;
-=======
-  margin-bottom: 40px;
-  background-color: #ffffff;
-  padding: 10.5px 16px;
-  width: fit-content;
-  align-self: center;
-  border: 1px solid #dee2e7;
-  box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
-  border-radius: 6px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #0d6efd;
-}
-
-.reset__btn {
-  background-color: transparent;
-  border: none;
-  align-self: flex-start;
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #0d6efd;
 }
-<<<<<<< HEAD
 
 .filtersHeader{
   display: flex;
@@ -206,5 +129,3 @@
 .hide {
   display: none;
 }
-=======
->>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
