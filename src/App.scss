@@ -1,11 +1,21 @@
-.container{
-  margin-inline: 130px
+.container {
+  margin-inline: 130px;
 }
-.main{
+@media all and (max-width: 820px) {
+  .container {
+    margin-inline: 40px;
+  }
+}
+.main {
   display: flex;
   gap: 30px;
 }
-.list{
+@media all and (max-width: 767px) {
+  .main {
+    flex-wrap: wrap;
+  }
+}
+.list {
   display: flex;
   flex-direction: column;
   gap: 8px;
