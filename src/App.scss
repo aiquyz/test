@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   margin-inline: 130px;
 }
@@ -20,3 +21,17 @@
   flex-direction: column;
   gap: 8px;
 }
+=======
+.container{
+  margin-inline: 130px
+}
+.main{
+  display: flex;
+  gap: 30px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+>>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd

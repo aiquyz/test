@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
 import { Sorting } from "features/Sorting/Sorting";
 import Product from "features/Product/Product";
@@ -56,6 +57,19 @@ const HomePage = ({ products, setProducts }) => {
             onChangeBrands={setBrands}
           />
 
+=======
+import Header from "features/Header/Header";
+import Product from "features/Product/Product";
+import Filters from "features/Filters/Filters";
+
+const HomePage = ({products, setProducts}) => {
+  return (
+    <div className="App">
+      <div className="container">
+        <Header />
+        <div className="main">
+          <Filters setProducts={setProducts} />
+>>>>>>> 3dc796852617115159451466aadaa6bc7c6391fd
           <div className="list">
             {products.map((product) => (
               <Product key={product.id} {...product} />
